@@ -36,13 +36,43 @@ npm install
 ## 📸 Screenshots
 
 ### Dashboard
-![Dashboard](screenshots/Dashboard.png)
+![Dashboard](screenshots/dashboard.png)
 
 ### Projects
-![Projects](screenshots/Projects.png)
+![Projects](screenshots/projects.png)
 
 ### Kanban Board
-![Kanban Board](screenshots/Kanban-Board.png)
+![Kanban Board](screenshots/kanban-board.png)
 
 ### Pagination
-![Pagination](screenshots/Pagination.png)
+![Pagination](screenshots/pagination.png)
+## 📘 API Documentation
+
+### Base URL
+http://localhost:5000/api
+
+---
+
+### 🟢 PROJECT APIs
+
+GET /projects?page=1&limit=10  
+POST /projects  
+GET /projects/:id  
+DELETE /projects/:id  
+
+---
+
+### 🔵 TASK APIs
+
+POST /projects/:projectId/tasks  
+GET /projects/:projectId/tasks  
+PUT /tasks/:id  
+DELETE /tasks/:id  
+
+---
+
+### 🔍 FILTER / SORT
+
+?status=TODO  
+?sort=dueDate  
+?status=TODO&sort=dueDate
