@@ -6,7 +6,7 @@ A full-stack Project Management System built using:
 - Database: SQLite
 - Frontend: React.js
 
-This system allows users to manage projects and tasks with full CRUD operations, pagination, filtering, and sorting.
+This project allows users to create projects, manage tasks, and track progress using a simple Kanban-style UI.
 
 ---
 
@@ -15,7 +15,7 @@ This system allows users to manage projects and tasks with full CRUD operations,
 ### 🟢 Project Features
 - Create Project
 - View all Projects
-- View single Project with tasks
+- View single Project with Tasks
 - Delete Project
 - Pagination support
 
