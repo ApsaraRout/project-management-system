@@ -33,3 +33,16 @@ This project allows users to create projects, manage tasks, and track progress u
 ### 1. Install dependencies
 ```bash
 npm install
+## 📸 Screenshots
+
+### Dashboard
+![Dashboard](screenshots/Dashboard.png)
+
+### Projects
+![Projects](screenshots/Projects.png)
+
+### Kanban Board
+![Kanban Board](screenshots/Kanban-Board.png)
+
+### Pagination
+![Pagination](screenshots/Pagination.png)
